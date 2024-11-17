@@ -1,0 +1,739 @@
+body{
+  overflow-x: hidden;
+  background-color: #222831;
+  padding: 0;
+  font-family: monospace;
+  
+}
+html{
+  scroll-behavior: smooth;
+  
+}
+.conatiner{
+  margin: 1rem;
+  margin-left: 3rem;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.336);
+  height: 5rem;
+  
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.link{
+  
+  display: flex;
+ 
+ 
+ 
+}
+.heading{
+   display: flex;
+   align-items: center;
+   margin-left: 2rem;
+}
+
+.link h2{
+  display: flex;
+  align-items: center;
+   margin-left: 2rem;
+   margin-right: 2rem;
+   font-size: 1.2rem;
+   
+}
+
+.Content-conatiner{
+  margin: 1rem;
+  margin-left: 3rem;
+  height: 30rem;
+   justify-content: space-around;
+   align-items:center;
+   display: flex;
+   font-size: larger;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.425);
+
+}
+.Content{
+    color: white;
+    margin: 1rem;
+    height: 15rem;
+    width: 29rem;
+   
+   
+    
+}
+.text{
+  height: 8rem;
+  margin-left: 1rem;
+}
+
+.text-button{
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  display: flex;
+ 
+}
+
+.text-button button{
+  margin-top: .5rem;
+  height: 3rem;
+  width: 9rem;
+  border-radius: 10px;
+  background-color: rgba(108, 108, 141, 0.342);
+  
+  font-family: monospace;
+  color: white;
+  font-weight: bolder;
+  
+  
+}
+.text-button button:hover{
+  margin-top: .5rem;
+  height: 3rem;
+  width: 9rem;
+  border-radius: 10px;
+  background-color: rgba(108, 108, 141, 0.342);
+  border:2px solid greenyellow;
+  font-family: monospace;
+  color: white;
+  font-weight: bolder;
+  
+  
+}
+
+.Content-Image{
+  height: 400px;
+  border-radius: 50%;
+  width: 400px;
+  background-image: url("https://img.freepik.com/premium-vector/programming-doodle-elements-set_252901-393.jpg");
+  /* background-image: url("https://static.vecteezy.com/system/resources/previews/006/994/217/non_2x/a-set-of-doodle-icons-on-the-topic-of-programming-vector.jpg"); */
+  background-size: contain;
+  border: 4px solid greenyellow;
+}
+
+.About{
+  color: white;
+  margin-left: 3rem;
+  height: 45rem;
+  width: 95%;
+  display: flex;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.406);
+  align-items: center;
+  justify-content: space-around;
+}
+
+.About-text{
+   color: white;
+   height: 15rem;
+   width: 35rem;
+  
+  
+  
+}
+
+.About-content{
+ 
+  height: 3rem;
+  
+}
+
+.About-heading{
+  
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  
+}
+
+.About-heading h1{
+   margin-right: 1rem;
+}
+.About-img{
+  
+   background-image: url('./assets/web-development-8734249_1920.png');
+   background-size: contain;
+   height: 30rem;
+   width: 40rem;
+}
+
+.SkillBox{
+  margin-top: 2rem;
+  color: white;
+  margin-left: 3rem;
+  height: 70rem;
+  width: 95%;
+ display: flex;
+ border-bottom: 4px solid rgba(255, 255, 255, 0.329);
+ 
+ 
+ 
+}
+.SkillBlock{
+  margin: 2rem;
+  display:flex;
+  height: 50rem;
+  width: 50vw;
+   align-items: center;
+  flex-wrap: wrap; 
+  
+  
+  
+  
+}
+
+.SkillImage{
+  height: 60rem;
+  width: 50vw;
+  text-align: center;
+  align-content: center;
+  justify-items: center;
+  margin-right: 0;
+  background-image: url("./assets/developer-8764523_1280.jpg");
+   background-size: contain;
+ border-radius: 25px;
+ 
+
+}
+
+
+
+
+.SkillImage img{
+  height: 100px;
+  width: 100px;
+  border: 2px solid white;
+ 
+  border-radius: 10px;
+}
+   
+
+.skill{
+  color: white;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 10px;
+  margin: 1rem;
+  align-content: center;
+  justify-items: center;
+ 
+ 
+}
+
+
+
+.skill img{
+  height: 8rem;
+  width: 8rem; 
+  border-radius: 10px;
+  padding: auto;
+}
+
+.contact{
+  height: 35rem;
+  width: 40vw;
+  
+
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("https://media.istockphoto.com/id/1369596395/vector/elegant-black-background-vector-illustration-with-vintage-distressed-grunge-texture-and-dark.jpg?s=612x612&w=0&k=20&c=3JBmNubvkvZs5FvAPHUA27om7mJRxhs8t5_wsu7vU_M="); */
+  background-size: cover;
+  border-radius: 15px;
+}
+.user-info{
+  height: 35rem;
+  width:40vw;
+  font-family: monospace;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+
+  
+
+ 
+}
+.user-info button{
+  height: 4rem;
+  margin-left: 4rem;
+  width:25vw ;
+  border-radius: 10px;
+  margin-left: 0rem;
+  font-weight: 900;
+  font-family: monospace;
+}
+
+.user-info button:hover{
+
+  background-color: greenyellow;
+}
+
+.input{
+
+  height: 8rem;
+  width:17vw ;
+  border-radius: 10px;
+  margin: 1rem;
+  color: white;
+  font-weight: 900;
+  font-size: larger;
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
+
+.contact form input{
+  height: 3rem;
+  width: 14vw;
+  border-radius: 10px;
+  /* border: 2px solid white; */
+  margin-top: 1rem;
+  /* background-color: transparent; */
+  background-color: #393e4673;
+  font-weight: 900;
+  font-size: larger;
+ 
+  color: white; 
+  text-align: center;
+  margin-left: .5rem;
+  font-family: monospace;
+}
+.msg{
+  height: 20rem;
+  width:36vw ;
+  border-radius: 10px;
+  margin: 1rem;
+  color: white;
+  font-weight: 900;
+  font-size: larger;
+  border: 2px solid  #393e4673;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input:focus{
+  outline: none;
+}
+
+textarea{
+  height: 12rem;
+  width: 90%;
+  margin: 1rem;
+  border-radius: 15px;
+  background-color: #393e4673;
+}
+
+
+.contact-container{
+  margin-top: 2rem;
+  color: white;
+  margin-left: 3rem;
+ 
+  height: 40rem;
+  display: flex;
+  width: 95%;
+}
+
+.img-container{
+  margin-top: 2rem;
+  color: white;
+  margin-left: 3rem;
+ 
+  height: 35rem;
+  display: flex;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+ /* image: url("https://static.vecteezy.com/system/resources/thumbnails/017/202/411/original/animated-online-coding-course-programming-language-loop-flat-2d-character-hd-footage-colorful-isolated-animation-on-white-background-with-alpha-channel-transparency-for-website-social-media-video.jpg"); */
+}
+
+.img-container img{
+  margin-top: 8rem;
+  height: 25rem;
+  width: 25rem;
+  opacity: 100%;
+ 
+}
+
+@media screen and (max-width:400px) {
+  body{
+    overflow-x: hidden;
+    background-color: #222831;
+    padding: 0;
+    font-family:monospace;
+  }
+  html{
+    scroll-behavior: smooth;
+    
+  }
+  .conatiner{
+    margin: 1.5rem;
+    margin-left: 0rem;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.336);
+    height: 5rem;
+    
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+  }
+  
+  .link{
+    
+    display: flex;
+   
+   
+   
+  }
+  .heading{
+     display: flex;
+     align-items: center;
+     margin-left: 1rem;
+  }
+  
+  .link h2{
+    display: flex;
+    align-items: center;
+     margin-left: .5rem;
+     margin-right: .5rem;
+     font-size: .75rem;
+     
+  }
+  
+  .Content-conatiner{
+    margin: 1.5rem;
+    margin-left: 0rem;
+    height: 30rem;
+     justify-content: space-around;
+     align-items:center;
+     display: flex;
+     flex-direction: column-reverse;
+     font-size: .60rem;
+     border-bottom: 1px solid rgba(255, 255, 255, 0.425);
+  
+  }
+  .Content{
+      color: white;
+      margin: .5rem;
+      height: 15rem;
+      width: 15rem;
+     
+     
+      
+  }
+  .text{
+    height: 5rem;
+    margin-left: .5rem;
+  }
+  
+  .text-button{
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    display: flex;
+   
+  }
+  
+  .text-button button{
+    margin-top: .5rem;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 10px;
+    background-color: rgba(108, 108, 141, 0.342);
+    font-family: monospace;
+    color: white;
+    font-weight: bolder;
+    
+    
+  }
+  .text-button button:hover{
+    margin-top: .5rem;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 10px;
+    background-color: rgba(108, 108, 141, 0.342);
+    border:2px solid greenyellow;
+    font-family: monospace;
+    color: white;
+    font-weight: bolder;
+    
+    
+  }
+  
+  .Content-Image{
+    height: 200px;
+    border-radius: 50%;
+    width: 200px;
+    background-image: url("https://img.freepik.com/premium-vector/programming-doodle-elements-set_252901-393.jpg");
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/006/994/217/non_2x/a-set-of-doodle-icons-on-the-topic-of-programming-vector.jpg"); */
+    background-size: contain;
+    border: 2px solid greenyellow;
+  }
+  
+  .About{
+    color: white;
+    margin-left: .5rem;
+    height: 50rem;
+    width: 95%;
+    display: flex;
+    flex-direction: column-reverse;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.406);
+    
+    justify-content: space-around;
+  }
+  
+  .About-text{
+     color: white;
+     height: 25rem;
+     width: 20rem;
+    
+    
+    
+  }
+  
+  .About-content{
+   
+    height: 4rem;
+    
+  }
+  
+  .About-heading{
+    
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .About-heading h1{
+     margin-right: 1rem;
+  }
+  .About-img{
+    
+     background-image: url('./assets/web-development-8734249_1920.png');
+     background-size: contain;
+     height: 15rem;
+     width: 20rem;
+  }
+  
+  .SkillBox{
+    margin-top: 4rem;
+    color: white;
+    margin-left: .5rem;
+    height: 80rem;
+    width: 95%;
+   display: flex;
+   flex-direction: column-reverse;
+   border-bottom: 4px solid rgba(255, 255, 255, 0.329);
+   
+   
+   
+  }
+  .SkillBlock{
+    margin: 1rem;
+    display:flex;
+    height: 50rem;
+    width: 95%;
+     align-items: center;
+    flex-wrap: wrap; 
+    
+    
+    
+    
+  }
+  
+  .SkillImage{
+    height: 40rem;
+    width: 95%;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    margin-right: 0;
+    background-image: url("./assets/developer-8764523_1280.jpg");
+    background-size:cover;
+    border-radius: 25px;
+   
+  
+  }
+  
+  
+  
+  
+  .SkillImage img{
+    height: 80px;
+    width: 80px;
+    border: 2px solid white;
+   
+    border-radius: 10px;
+  }
+     
+  
+  .skill{
+    color: white;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 10px;
+    margin: .5rem;
+    align-content: center;
+    justify-items: center;
+    font-size: smaller;
+   
+   
+  }
+  
+  
+  
+  .skill img{
+    height: 4rem;
+    width: 4rem; 
+    border-radius: 10px;
+   
+  }
+
+  .contact-container{
+    margin-top: 10rem;
+    color: white;
+    margin-left: .5rem;
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    font-size: 10px;
+  }
+  
+  
+  .contact{
+    height: 30rem;
+    width: 95%;
+
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("https://media.istockphoto.com/id/1369596395/vector/elegant-black-background-vector-illustration-with-vintage-distressed-grunge-texture-and-dark.jpg?s=612x612&w=0&k=20&c=3JBmNubvkvZs5FvAPHUA27om7mJRxhs8t5_wsu7vU_M="); */
+    background-size: cover;
+    border-radius: 15px;
+  }
+  .user-info{
+    height: 30rem;
+    width:95%;
+    font-family: monospace;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+  
+    
+  
+   
+  }
+  .user-info button{
+    height: 4rem;
+    margin-left: 4rem;
+    width:25vw ;
+    border-radius: 10px;
+    margin-left: 0rem;
+    font-weight: 900;
+    font-family: monospace;
+  }
+  
+  .user-info button:hover{
+  
+    background-color: greenyellow;
+  }
+  
+  .input{
+  
+    height: 6rem;
+    width:40%;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+    font-size: larger;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+  }
+  
+  .contact form input{
+    height: 4rem;
+    width: 90%;
+    border-radius: 10px;
+    /* border: 2px solid white; */
+    margin-top: 1rem;
+    /* background-color: transparent; */
+    background-color: #393e4673;
+    font-weight: 900;
+    font-size: xx-small;
+    color: white; 
+    text-align: center;
+    margin-left: .5rem;
+    font-family: monospace;
+  }
+  .msg{
+    height: 20rem;
+    width:90% ;
+    border-radius: 10px;
+    margin: 1rem;
+    color: white;
+    font-weight: 900;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  input:focus{
+    outline: none;
+  }
+  
+  textarea{
+    height: 5rem;
+    width: 80%;
+    margin: 1rem;
+    border-radius: 15px;
+    background-color: #393e4673;
+  }
+  
+  
+  
+  .img-container{
+    margin-top: 2rem;
+    color: white;
+    margin-left: 0;
+    height: 35rem;
+    display: flex;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   /* image: url("https://static.vecteezy.com/system/resources/thumbnails/017/202/411/original/animated-online-coding-course-programming-language-loop-flat-2d-character-hd-footage-colorful-isolated-animation-on-white-background-with-alpha-channel-transparency-for-website-social-media-video.jpg"); */
+  }
+  
+  .img-container img{
+    margin-top: 2rem;
+    height: 10rem;
+    width: 10rem;
+    opacity: 100%;
+   
+  }
+  
+
+}
