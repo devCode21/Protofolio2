@@ -4,9 +4,9 @@ import {js,HTML,css,Mongodb,nodejs,express,bootstarp,reactjs,PostMan,Tailwind} f
 function SkillGrp() {
   return (
     <>
-  
+    <h1 className="Tech-stack" style={{fontSize:'3rem',marginLeft:"3rem",color:"white"}} >Tech <span style={{color:'lightgreen'}}>Stack</span></h1>
     <div className="SkillBox"  id="skill">
-      
+       
     <div className='SkillBlock'>
        <Skills  Name="Html" Image={HTML}/>
        <Skills  Name="Css" Image={css}/>

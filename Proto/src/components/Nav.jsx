@@ -10,10 +10,10 @@ function Nav() {
             <h1>Coder</h1>
         </div>
         <div className="link">
-            <h2>Home</h2>
-            <h2><Link to='skill'>Skill</Link></h2>
-            <h2><Link to="about">About</Link></h2>
-            <h2><Link to='contact'>contact us</Link></h2>
+            <h2 className='links'>Home</h2>
+            <h2 className='links'><Link to='skill'>Skill</Link></h2>
+            <h2 className='links'><Link to="about">About</Link></h2>
+            <h2 className='links'><Link to='contact'>contact us</Link></h2>
         </div>
       
     </div>

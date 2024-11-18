@@ -8,11 +8,11 @@ function Content() {
           <div className="Content">
              <div className="text">
                  <h1>"HI</h1>
-                 <h1 style={{marginLeft:"2rem"}}>I'm a Passionate programmer..."</h1>
+                 <h1 style={{marginLeft:"2rem",color:"lightskyblue"}}>I'm a <span style={{color:'lightgreen'}}>Passionate programmer...</span> "</h1>
              </div>
              <div className="text-button">
-                 <button>view projects</button>
-                 <button><Link to='skill'>view Skill</Link></button>
+                 <button>View Projects</button>
+                 <button><Link to='skill' style={{color:'lightgreen'}}>View Skill</Link></button>
              </div>
               
           </div>

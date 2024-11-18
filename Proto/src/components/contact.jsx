@@ -15,7 +15,7 @@ function contact() {
     <div className="contact-container">
      
       <div className="img-container">
-      <h1>YOU CAN CONNECT WITH US</h1>
+      <h1>YOU CAN  <span style={{color:"lightgreen"}}>CONNECT WITH US</span></h1>
         <img src={`${img}`} alt="" />
       </div>
       <div className='contact' id='contact'>

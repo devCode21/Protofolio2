@@ -10,7 +10,7 @@ function Projects() {
    <div className="ProjectBox">
     
      <div className="ProjectImg">
-     <h1>YOU CAN CONNECT WITH US</h1>
+   
        <img src="" alt="" />
      </div>
      <div className='Projects'>

@@ -9,6 +9,7 @@ html{
   scroll-behavior: smooth;
   
 }
+
 .conatiner{
   margin: 1rem;
   margin-left: 3rem;
@@ -29,6 +30,9 @@ html{
  
  
  
+}
+.links:hover{
+  color: lightgreen;
 }
 .heading{
    display: flex;
