@@ -2,7 +2,6 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
 import Content from './Content.jsx'
 import Nav from './components/Nav.jsx'
 import Projects from './Projects.jsx'
@@ -20,7 +19,7 @@ function App() {
        <About/>
        <SkillGrp/>
         <Projects/>
-        <div className='empty' style={{height:'40rem'}}></div>
+        <div className='empty' style={{height:'30rem'}}></div>
        <Contact/>
       </>
        
