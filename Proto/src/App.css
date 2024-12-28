@@ -32,7 +32,8 @@ html{
  
 }
 .links:hover{
-  color: lightgreen;
+  
+  color: rgb(24, 253, 24);
 }
 .heading{
    display: flex;
@@ -93,6 +94,7 @@ html{
   font-family: monospace;
   color: white;
   font-weight: bolder;
+  border: none;
   
   
 }
@@ -102,7 +104,7 @@ html{
   width: 9rem;
   border-radius: 10px;
   background-color: rgba(108, 108, 141, 0.342);
-  border:2px solid greenyellow;
+  border:2px solid rgb(147, 242, 5);
   font-family: monospace;
   color: white;
   font-weight: bolder;
@@ -138,6 +140,14 @@ html{
   
   
   
+}
+.veiwproject{
+  display: none;
+}
+.About p{
+  font-size: .95rem;
+  
+ 
 }
 
 .About-content{
@@ -240,7 +250,7 @@ html{
 .contact{
   height: 35rem;
   width: 40vw;
-  
+  border: none;
 
   display: flex ;
   justify-content: center;
@@ -270,6 +280,8 @@ html{
   margin-left: 0rem;
   font-weight: 900;
   font-family: monospace;
+  border: none;
+  outline: none;
 }
 
 .user-info button:hover{
@@ -278,7 +290,7 @@ html{
 }
 
 .input{
-
+ 
   height: 8rem;
   width:17vw ;
   border-radius: 10px;
@@ -295,6 +307,8 @@ html{
 }
 
 .contact form input{
+  border: none;
+  outline: none;
   height: 3rem;
   width: 14vw;
   border-radius: 10px;
@@ -328,10 +342,12 @@ input:focus{
 }
 
 textarea{
+  border: none;
+  outline: none;
   height: 12rem;
   width: 90%;
   margin: 1rem;
-  border-radius: 15px;
+  border-radius: 10px;
   background-color: #393e4673;
 }
 
@@ -370,6 +386,99 @@ textarea{
  
 }
 
+.Project{
+  background-color: rgba(252, 254, 255, 0.742);
+  
+  height: 25rem;
+  width: 20rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+
+.Project:hover{
+  
+  background-color: rgba(252, 254, 255, 0.196);
+  height: 25rem;
+  width: 20rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Project:hover img{
+  
+  background-color: rgba(252, 254, 255, 0.196);
+  
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.probutton{
+    height: 5rem;
+    width: 20rem;
+  border: 2px solid black;
+  display: flex;
+
+}
+.probutton button{
+  height: 2.5rem;
+  width: 6rem;
+  justify-content: space-between;
+}
+
+.veiwproject button{
+  height: 3rem;
+  width: 8rem;
+  margin-left: 1.2rem;
+  
+  border-radius: 15px;
+  font-size: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: none;
+ 
+}
+
+.Project:hover .veiwproject{
+    display: block;
+    margin-top: 1rem;
+    height: 3rem;
+    width: 20rem;
+    
+   
+} 
+.Project:hover .ProImage  {
+  opacity: 80%;
+
+}
+.Project:hover .ProContent  {
+  opacity: 80%;
+  display: none;
+}
+.Project img{
+  margin-top: 1rem;
+  height: 18rem;
+  width: 18rem;
+ border-radius: 15px;
+
+}
+.ProjectBox{
+  padding: 1rem;
+  border-bottom: 4px solid rgba(245, 245, 245, 0.249);
+  margin-left: 3rem;
+}
+
+.prohead{
+   font-size: 2.8rem;
+  color: snow;
+}
+.Projects{
+ 
+  margin-left: 2.1rem;
+}
 @media screen and (max-width:500px) {
   body{
     overflow-x: hidden;

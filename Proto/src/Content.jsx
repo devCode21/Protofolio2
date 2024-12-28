@@ -11,8 +11,8 @@ function Content() {
                  <h1 style={{marginLeft:"2rem",color:"lightskyblue"}}>I'm a <span style={{color:'lightgreen'}}>Passionate programmer...</span> "</h1>
              </div>
              <div className="text-button">
-                 <button>View Projects</button>
-                 <button><Link to='skill' style={{color:'lightgreen'}}>View Skill</Link></button>
+                 <button><Link to='project' style={{color:'white'}}>View Projects</Link></button>
+                 <button><Link to='skill' style={{color:'white'}}>View Skill</Link></button>
              </div>
               
           </div>

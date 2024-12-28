@@ -7,19 +7,15 @@ function Projects() {
 
   return (
 
-   <div className="ProjectBox">
-    
+   <div className="ProjectBox" id='project'>
+       <h1 className='prohead'>My Projects</h1>
      <div className="ProjectImg">
    
        <img src="" alt="" />
      </div>
      <div className='Projects'>
-      <Project  ProjectName={"Travellers Site"} Content={'its is website '} Image={Traveller_site} id={arr[0]} />
-      <Project ProjectName={"video player"} Content={'its is website '} Image={Youtbe} id={arr[1]} />
-      <Project ProjectName={"weather App"} Content={'its is website '} Image={Weather} id={arr[2]}/>
-      <Project ProjectName={"weather App"} Content={'its is website '} Image={Weather} id={arr[1]}/>
-      <Project ProjectName={"weather App"} Content={'its is website '} Image={Weather} id={arr[1]}/>
-      <Project ProjectName={"weather App"} Content={'its is website '} Image={Weather} id={arr[1]}/>
+      <Project  ProjectName={"PlacInfo"} Content={'its is website '} Image={Traveller_site} id={arr[0]} />
+    
        </div>
    </div> 
    
