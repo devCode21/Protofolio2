@@ -9,7 +9,6 @@ import { useDispatch, useSelector } from 'react-redux'
 import About from './About.jsx'
 import SkillGrp from './components/SkillGrp.jsx'
 import Contact from './components/contact.jsx'
-
 function App() {
  
     return (
