@@ -5,7 +5,7 @@ import './App.css'
 
 import Content from './Content.jsx'
 import Nav from './components/Nav.jsx'
-import Content from './Content'
+import Projects from './Projects.jsx'
 import { useDispatch, useSelector } from 'react-redux'
 import About from './About.jsx'
 import SkillGrp from './components/SkillGrp.jsx'
