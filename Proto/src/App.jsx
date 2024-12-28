@@ -19,7 +19,7 @@ function App() {
        <About/>
        <SkillGrp/>
         <Projects/>
-        <div className='empty' style={{height:'40rem'}}></div>
+        <div className='empty' style={{height:'30rem'}}></div>
        <Contact/>
       </>
        
